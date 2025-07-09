@@ -4,6 +4,8 @@ public class ex2_5 {
 
     public static void main(String[] args) {
 
+        // Le a quantidade e o codigo de determinado produto, calcula e exibe o preço a se pagar
+
         Scanner input = new Scanner(System.in);
         System.out.print("Digite o código:        ");
         int cod = input.nextInt();

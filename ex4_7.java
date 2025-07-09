@@ -4,6 +4,8 @@ public class ex4_7 {
 
     public static void main(String[] args) {
 
+        // Programa que lê um numero e mostra os n*n e n*n*n ate o numero digitado
+
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         int quadrado, cubo;

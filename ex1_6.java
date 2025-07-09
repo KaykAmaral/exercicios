@@ -1,9 +1,11 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Ex1_6 {
+public class ex1_6 {
 
     public static void main(String[] args) {
+
+        // programa que le 3 variaveis e informa a area do triangulo, circulo, trapezio, quadrado e retangulo
 
         Scanner input = new Scanner(System.in);
         float a, b, c;

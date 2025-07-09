@@ -1,9 +1,11 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Ex1_5 {
+public class ex1_5 {
 
     public static void main(String[] args) {
+
+        // Programa que le o codigo e a quantidade de dois produtos e calcula e mostra o valor a ser pago
 
         Scanner input = new Scanner(System.in);
         int p1, p2, q1, q2;

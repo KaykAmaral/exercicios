@@ -4,6 +4,8 @@ public class ex4_2 {
 
     public static void main(String[] args) {
 
+        // Programa que le varios n°s e mostra a quantidade de n°s que estava entre e fora do intevalo 10---20
+
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         int n;

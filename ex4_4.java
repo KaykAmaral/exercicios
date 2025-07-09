@@ -4,6 +4,9 @@ public class ex4_4 {
 
     public static void main(String[] args) {
 
+        // Programa que lê uma variavel depois duas, a primeira determina a q° de divisoes que ocorrera entre a 2° e
+        // 3° variavel e mostra o resultado dessa divisão
+
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         float num1;

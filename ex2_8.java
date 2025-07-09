@@ -4,6 +4,8 @@ public class ex2_8 {
 
     public static void main(String[] args) {
 
+        // Programa que le o salario de alguem e calcula a % de imposto que devera ser pago
+
         Scanner input = new Scanner(System.in);
         double salario;
         double imposto = 0;

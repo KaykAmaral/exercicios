@@ -1,13 +1,14 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Ex2_4 {
+public class ex2_4 {
 
     public static void main(String[] args) {
 
+        // Programa que mostra a duração de um jogo
+
         Scanner input = new Scanner(System.in);
         int x;
-
 
         System.out.print("inicio do jogo: ");
         int ini = input.nextInt();

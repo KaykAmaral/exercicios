@@ -1,9 +1,11 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Ex2_3 {
+public class ex2_3 {
 
     public static void main(String[] args) {
+
+        // programa que le dois valores e informa se eles são multiplos ou não
 
         Scanner input = new Scanner(System.in);
         System.out.println("Digite dois valores: ");

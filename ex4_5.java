@@ -4,6 +4,8 @@ public class ex4_5 {
 
     public static void main(String[] args) {
 
+        // Progreama que lê um numero e mostra o fatorial do numero digitado
+
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         int y = 1;

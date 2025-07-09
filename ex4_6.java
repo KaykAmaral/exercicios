@@ -4,6 +4,8 @@ public class ex4_6 {
 
     public static void main(String[] args) {
 
+        // Programa que le um valor positivo e faz uma contagem de 1 até o valor digitado
+
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         if (x > 0) {

@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class ex2_7 {
     
     public static void main(String[] args) {
+
+        // programa que lê duas variaveis e mostra em que quadrante se encontra o ponto criado apartir desses pontos
         
         Scanner input = new Scanner(System.in);
         System.out.print("digite o valor de X:");

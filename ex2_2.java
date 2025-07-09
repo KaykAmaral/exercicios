@@ -1,9 +1,11 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Ex2_2 {
+public class ex2_2 {
 
     public static void main(String[] args) {
+
+        // Programa que le um numero e informa se é par ou impar
 
         Scanner input = new Scanner(System.in);
         System.out.println("Digite um número: ");

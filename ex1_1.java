@@ -1,9 +1,11 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Ex1_1 {
+public class ex1_1 {
 
     public static void main (String[] args) {
+
+        // Programa que le dois valores e calcula e exibe a soma desses dois valores
 
         Scanner input = new Scanner(System.in); // Criação do Scanner
         int x = input.nextInt(); // Lendo valor de X
