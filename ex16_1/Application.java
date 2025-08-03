@@ -34,7 +34,9 @@ public class Application {
 
         System.out.println("\nINSTALLMENTS:");
 
-        contract.getInstallment();
+        for (Installment installment : contract.getInstallment()) {
+            installment.toString();
+        }
 
     }
 

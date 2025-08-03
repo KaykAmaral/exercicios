@@ -2,6 +2,8 @@ package exercicios.ex16_1.entities;
 
 import java.util.ArrayList;
 import java.time.LocalDate;
+import java.util.List;
+
 public class Contract {
 
     ArrayList<Installment> installments = new ArrayList<>();
@@ -22,9 +24,6 @@ public class Contract {
     public double getTotalValue() { return this.totalValue; }
 
     public void addInstailment(Installment installment) { installments.add(installment); }
-    public void removeInstailment(Installment installment) { installments.remove(installment); }
-    public void getInstallment() {
-        for (Installment i : installments) { i.toString(); }
-    }
+    public List<Installment> getInstallment() { return installments; }
 
 }

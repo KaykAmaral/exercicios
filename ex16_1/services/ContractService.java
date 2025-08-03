@@ -17,10 +17,10 @@ public class ContractService {
         double basicQuota = contract.getTotalValue()/months;
         for (int i = 1; i <= months; i++) {
             LocalDate dueDate = contract.getDate().plusMonths(i);
-            double interest = ops.interest(basicQuota, months);
+            double interest = ops.interest(basicQuota, i);
             double paymentFee = ops.paymentFee(basicQuota);
             double quota = basicQuota + interest + paymentFee;
-            contract.addInstailment(new Installment(dueDate, quota));
+            contract.getInstallment().add(new Installment(dueDate, quota));
         }
     }
 
