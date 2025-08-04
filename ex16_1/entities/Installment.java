@@ -21,7 +21,7 @@ public class Installment {
 
     @Override
     public String toString(){
-        System.out.println(getDueDate().format(fmt) + "  -  " + getAmount());
+        System.out.println(getDueDate().format(fmt) + "  -  " + String.format("%.2f", getAmount()));
         return null;
     }
 
