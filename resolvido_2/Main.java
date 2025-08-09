@@ -1,7 +1,7 @@
 package exercicios.resolvido_2;
 
 import exercicios.resolvido_2.entities.Circle;
-import exercicios.resolvido_2.entities.Retangle;
+import exercicios.resolvido_2.entities.Rectangle;
 import exercicios.resolvido_2.entities.Shape;
 
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class Main {
                 double width = sc.nextDouble();
                 System.out.print("Height:                         ");
                 double height = sc.nextDouble();
-                shapes.add(new Retangle(width, height, color));
+                shapes.add(new Rectangle(width, height, color));
             } else if (shape.equals("c")) {
                 System.out.print("Radius:                         ");
                 double radius = sc.nextDouble();

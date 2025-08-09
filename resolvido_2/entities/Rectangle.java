@@ -1,11 +1,11 @@
 package exercicios.resolvido_2.entities;
 
-public final class Retangle extends Shape{
+public final class Rectangle extends Shape{
 
     private double width;
     private double height;
 
-    public Retangle(double width, double height, String color) {
+    public Rectangle(double width, double height, String color) {
         super(color);
         setWidth(width);
         setHeight(height);
