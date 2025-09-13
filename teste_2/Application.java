@@ -1,4 +1,4 @@
-package exercicios.teste_2;
+/*package exercicios.teste_2;
 
 import exercicios.teste_2.entities.Product;
 import exercicios.teste_2.services.CalculationService;
@@ -38,4 +38,4 @@ public class Application {
             System.out.println("Error: " + e.getMessage());
         }
     }
-}
+}*/
