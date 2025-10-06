@@ -1,4 +1,4 @@
-package exercicios.teste_8;
+package exercicios.teste_9;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,8 +17,14 @@ public class Application {
         list.add(new Product("Tablet", 350.00));
         list.add(new Product("HD Case", 80.90));
 
-        // This method uses Predicate<T>
-        list.removeIf(p -> p.getPrice() >= 100.00);
+        // This method uses Consumer<T>
+        list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
+
+        /*
+        *   This may can write using Consumer<T>
+        *   Consumer<Product> cons = p -> p.setPrice(p.getPrice * 1.1);
+        *   list.forEach(cons);
+        */
 
         for (Product p : list) {
             System.out.println(p);
