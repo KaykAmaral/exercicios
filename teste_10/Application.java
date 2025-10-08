@@ -22,7 +22,7 @@ public class Application {
         * Using .stream() we transform the list to stream
         * .collect(Collectors.toList()) transform a stream to List
         *  We also can use just .toList()
-        * */
+        */
 
         List<String> names = list.stream().map( p -> p.getName().toUpperCase() ).toList();
 
